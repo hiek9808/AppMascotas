@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dadada"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_facebook"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="Ingresar con Facebook"
+        android:backgroundTint="#2149c2"
+        android:background="@drawable/boton"
+        android:drawableLeft="@drawable/ic_facebook"
+        style="@style/botonStyle"/>
+
+
+    <Button
+        android:id="@+id/button_google"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="Ingresar con Google"
+        android:background="@drawable/boton"
+        android:backgroundTint="#be2d2d"
+        android:drawableLeft="@mipmap/ic_google"
+        style="@style/botonStyle"/>
+
+    <Button
+        android:id="@+id/button_finpet"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="Ingresar con FinPet"
+        android:background="@drawable/boton"
+        android:backgroundTint="#65ba53"
+        style="@style/botonStyle"/>
+
+
+
+</LinearLayout>

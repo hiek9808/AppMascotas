@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dadada"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="Publica una mascota perdida"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Imagen"/>
+        <ImageView
+            android:id="@+id/iv_mascota_perdida"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_menu_camera"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Titulo:"/>
+        <EditText
+            android:id="@+id/et_titulo_mascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/cajaTexto"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginLeft="32dp"
+            android:text="Nombre:"/>
+        <EditText
+            android:id="@+id/et_nombre_mascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/cajaTexto"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginLeft="32dp"
+            android:text="Raza:"/>
+        <EditText
+            android:id="@+id/et_raza_mascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/cajaTexto"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginLeft="32dp"
+            android:text="Edad:"/>
+        <EditText
+            android:id="@+id/et_edad_mascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/cajaTexto"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginLeft="32dp"
+            android:text="Seleciona el lugar donde se perdio:"/>
+        <EditText
+            android:id="@+id/et_lugar_mascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            style="@style/cajaTexto"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Descripcion:"/>
+        <EditText
+            android:id="@+id/et_Descripcion_mascota"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            style="@style/cajaTexto"/>
+        <Button
+            android:id="@+id/bu_publicar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Publicar"
+            android:background="@drawable/botones"
+            style="@style/botonStyle"/>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

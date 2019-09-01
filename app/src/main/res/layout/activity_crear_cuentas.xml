@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dadada"
+    tools:context="com.developer.kervin.appmascotas.CrearCuentasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_nombre"
+            style="@style/cajaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="26dp"
+            android:hint="Nombre"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edittext_apellido"
+            style="@style/cajaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:hint="Apellido"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/edittext_correo"
+            style="@style/cajaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:hint="Correo"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edittext_password"
+            style="@style/cajaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edittext_confir_contras"
+            style="@style/cajaTexto"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:hint="Confirmar Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_crear_cuenta"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:text="Crear Cuenta"
+            android:background="@drawable/botones"
+            style="@style/botonStyle"/>
+    </LinearLayout>
+
+
+</LinearLayout>
